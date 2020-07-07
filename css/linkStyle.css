@@ -1,0 +1,47 @@
+.main h1{
+  color: white;
+  background-color: orange;
+  /** CLock Wise Retation: Top, Right, Bottom,Left**/
+  /**
+  border-width: 20px;
+  border-style: groove;
+  border-color: aquamarine;
+  border: 20px groove hotpink;
+  outline-width: 10px;
+  outline-style: ridge;
+  outline-color: #D4AF37;
+  outline-offset: 2px;
+  **/
+}
+#tea{
+  color: lawngreen;
+  background-color: brown;
+}
+.pHeck{
+  /**
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  background-color: plum;
+  margin: 10px 20px 10px 20px;
+  margin: auto;
+  width: 500px;
+  min-height: 200px;
+  max-height: 500px;
+  **/
+  background-color: plum;
+  color: #ffffff;
+  width: 500px;
+  border: 20px ridge #9400d3;
+  border-radius: 20px 10px;
+}
+.firstDiv{
+  min-width: 200px;
+  min-height: 200px;
+  margin: 0px;
+  padding: 0px 5px 10px 0px;
+  border-width: 0px;
+  border-radius: 25px;
+  outline-width: 0px;
+}
