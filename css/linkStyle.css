@@ -1,7 +1,13 @@
+*{
+  margin: 0px;
+  padding:0px;
+}
 .main h1{
   color: white;
   background-color: orange;
-  /** CLock Wise Retation: Top, Right, Bottom,Left**/
+  margin: 0px;
+  padding: 0px;
+  /** Clock Wise Retation: Top, Right, Bottom,Left**/
   /**
   border-width: 20px;
   border-style: groove;
@@ -37,11 +43,52 @@
   border-radius: 20px 10px;
 }
 .firstDiv{
+  /**
   min-width: 200px;
   min-height: 200px;
   margin: 0px;
-  padding: 0px 5px 10px 0px;
+  padding: 0px 15px 10px 100px;
   border-width: 0px;
-  border-radius: 25px;
+  border-radius: 0px;
   outline-width: 0px;
+  background-color: #bbbbbb;
+  color: #000000;
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+  border: 10px ridge #000000;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: auto;
+  **/
+  border: 2px ridge #000000;
+  width: 50%;
+  background-color: cadetblue;
+  color: azure;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+}
+#secondDiv{
+  /**
+  height: 200px;
+  width: 200px;
+  background-color: aqua;
+  border: 2px ridge blue;
+  margin-top: 20px;
+  border-radius: 50%;
+  box-shadow: 10px 20px 2px 1px black;
+  overflow: auto;
+  **/
+  border: 2px ridge #000000;
+  width: 40%;
+  background-color: brown;
+  color: bisque;
+  float: left;
+  margin: 0px;
+  padding:0;
+}
+#thirdDiv{
+  border: 2px ridge #000000;
+  clear: both;
 }
