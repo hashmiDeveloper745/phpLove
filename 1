@@ -7,17 +7,16 @@ class functions{
   }
   public function connectDatabase(){
 	  $serverHost = "localhost";
-	  $serverUsername = "";
+	  $serverUsername = "developerFarazHashmi";
 	  $serverPassword = "";
 	  $serverDatabase = "phpLove";
-	  $connect = new PDO("mysql:host = $serverHost; dbname = $serverDatabase",$serverUsername,$serverPassword);
+	  $connect = new PDO("mysql:host = $serverHost; databaseName = $serverDatabase",$serverUsername,$serverPassword);
 	  if($connect){
 		  echo "Database Connected Successfully.";
 	  }
 	  else{
-		  die("Database Connection Error.");
+		  die("Database Connection Error.);
 	  }
   }
 }
 ?>
-
