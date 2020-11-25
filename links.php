@@ -17,6 +17,7 @@
 <li class="nav-item"><a class="nav-link" href="http://love/login.php" data-toggle="tooltip" data-placement="bottom" title="Contact">Log in</a></li>
 <li class="nav-item"><a class="nav-link" href="http://love/logout.php" data-toggle="tooltip" data-placement="bottom" title="Contact">Log out</a></li>
 <li class="nav-item"><a class="nav-link" href="http://love/pracs.php" data-toggle="tooltip" data-placement="bottom" title="Contact">Practise Page</a></li>
+<li class="nav-item"><a class="nav-link" href="http://love/dummyPage.php" data-toggle="tooltip" data-placement="bottom" title="Dummy Page">Dummy Page</a></li>
 </ul>
 </div>
 </nav>
